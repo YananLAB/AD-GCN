@@ -1,0 +1,34 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --bfile /data/AD/data/ROSMAP/onlyCatalog/plink_eur/CN_AD/CN_AD.ovp
+  --ci 0.95
+  --covar /data/AD/data/ROSMAP/onlyCatalog/covar/CN_AD.cov
+  --hide-covar
+  --logistic
+  --out /data/AD/data/ROSMAP/onlyCatalog/logistic_eur/CN_AD
+  --pheno /data/AD/data/ROSMAP/onlyCatalog/phenotype/CN_AD.phe
+  --threads 20
+
+Hostname: aiserver
+Working directory: /data/AD/data/ROSMAP/onlyCatalog/code
+Start time: Wed Jul 31 06:17:36 2024
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1722406656
+515176 MB RAM detected; reserving 257588 MB for main workspace.
+1322 variants loaded from .bim file.
+874 people (283 males, 591 females) loaded from .fam.
+874 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 7 covariates loaded.
+6 people had missing value(s).
+Before main variant filters, 874 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99983.
+1322 variants and 874 people pass filters and QC.
+Among remaining phenotypes, 492 are cases and 376 are controls.  (6 phenotypes
+are missing.)
+Writing logistic model association results to
+/data/AD/data/ROSMAP/onlyCatalog/logistic_eur/CN_AD.assoc.logistic ... done.
+
+End time: Wed Jul 31 06:17:36 2024
