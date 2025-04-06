@@ -1,0 +1,30 @@
+###The main packages used by each platform and their corresponding versions###
+##################### R studio #####################
+R=4.3.3
+stats=4.3.3
+Limma==3.58.1
+wateRmelon==2.8.0
+minfi==1.48.0
+RPMM==1.25
+DMwR2==0.0.2
+ChAMP==2.32.0
+IlluminaHumanMethylationEPICanno.ilm10b4.hg19==0.6.0
+IlluminaHumanMethylationEPICmanifest==0.3.0
+dplyr==1.1.4
+lassosum==0.4.5
+
+##################### Linux #####################
+Linux==Ubuntu 24.04.1
+Plink==1.9
+bcftools==1.19
+PRSice==2.3.3
+LDpred==1.0.11
+PRS-CS==2024.5.14
+
+##################### python #####################
+Python==3.9.18
+PyTorch==1.10.0
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+imbalanced-learn==0.12.3
